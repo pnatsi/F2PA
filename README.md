@@ -14,7 +14,8 @@ F2PA needs a config file to run. The config file will contain:
 
 - The path to the folder containing the input FASTA files 
 - The path in which the results will be written
-- The paths where the required software are installed.
+- The paths in which the required software are installed.
+- The values of various parameters for the OrthoFinder run
 <br>
 
 Please change the provided `config.txt` file accordingly before running your own analysis.
@@ -23,8 +24,9 @@ Please change the provided `config.txt` file accordingly before running your own
 ## Arguments
 Argument    |  Description             
 :-------------:|:-----------------------
-`-seq` | file w/ the 28S rRNA sequence
-`-reads` | files w/ paired aboveRNA-seq reads (need to provide two filenames, see Example Usage)
 `-c` | (full) path to config file
-`-left` | Position of the conserved 20-mer lying before the hidden break region in the 28S sequence*
-`-right` | Position of the conserved 20-mer lying after the hidden break region in the 28S sequence**
+`--busco` | will run the BUSCO analysis for the proteomes and create a .tsv file with the results
+`--dataset` | the dataset which BUSCO will use to run (e.g. eukaryota, metazoa, vertebrata, actinopterygii)
+`--fasta` | will produce an gene presence/absence alignment in FASTA format
+`--phylip` | will produce an gene presence/absence alignment in PHYLIP format
+`--nexus` | will produce an gene presence/absence alignment in NEXUS. format. It only works if `-phylip` is selected!!
