@@ -26,4 +26,4 @@ Please change the provided `config.txt` file accordingly before running your own
 `--dataset` | the dataset which BUSCO will use to run (e.g. eukaryota, metazoa, vertebrata, actinopterygii)
 `--fasta` | will produce an gene presence/absence alignment in FASTA format
 `--phylip` | will produce an gene presence/absence alignment in PHYLIP format
-`--nexus` | will produce an gene presence/absence alignment in NEXUS. format. It only works if `-phylip` is selected
+`--nexus` | will produce an gene presence/absence alignment in NEXUS. format. It only works if `--phylip` is selected
