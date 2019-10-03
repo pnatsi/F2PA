@@ -27,3 +27,24 @@ Please change the provided `config.txt` file accordingly before running your own
 `--fasta` | will produce an gene presence/absence alignment in FASTA format
 `--phylip` | will produce an gene presence/absence alignment in PHYLIP format
 `--nexus` | will produce an gene presence/absence alignment in NEXUS. format. It only works if `--phylip` is selected
+
+
+## Example Usage
+
+To run OrthoFinder and produce a corresponding gene presence/absence alignment in interleaved nexus format:
+
+```
+python F2PA.py -c config_file.txt 
+```
+ 
+<br>
+Who<br> 
+ Paschalis Natsidis, PhD candidate (p.natsidis@ucl.ac.uk); <br>
+<br>
+Where<br>
+ Telford Lab, UCL;<br>
+ ITN IGNITE; 
+<br>
+<br>
+When<br> 
+ October 2019; 
