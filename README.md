@@ -19,7 +19,7 @@ Please change the provided `config.txt` file accordingly before running your own
 
 ## Arguments
 Argument    |  Description             
-:----------------------:|:-----------------------
+:----------------------------:|:-----------------------
 `-c` | (full) path to config file
 `--no-orthofinder` | will skip the OrthoFinder analysis and gene presence/absence alignment creation step
 `--busco` | will run the BUSCO analysis for the proteomes and create a .tsv file with the results
