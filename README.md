@@ -15,9 +15,6 @@ F2PA needs a config file to run. The config file will contain:
 - The path to the folder containing the input FASTA files 
 - The path in which the results will be written
 - The paths where the required software are installed.
-
-<br>
-
 Please change the provided `config.txt` file accordingly before running your own analysis.
 
 <br>  
