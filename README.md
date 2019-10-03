@@ -18,7 +18,7 @@ Please change the provided `config.txt` file accordingly before running your own
 
 
 ## Arguments
-Argument                   |  Description             
+Argument&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  Description             
 :--------------------------------------------:|:-----------------------
 `-c` | (full) path to config file
 `--no-orthofinder` | will skip the OrthoFinder analysis and gene presence/absence alignment creation step
