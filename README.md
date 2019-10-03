@@ -19,7 +19,6 @@ F2PA needs a config file to run. The config file will contain:
 
 Please change the provided `config.txt` file accordingly before running your own analysis.
 
-<br>  
 
 ## Arguments
 Argument    |  Description             
