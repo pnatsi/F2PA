@@ -146,9 +146,9 @@ f = open(genecounts_file, "r")
 lines = f.readlines()
 genecounts_df = [x.strip().split("\t") for x in lines]
 
-#A LIST OF THE SPECIES INCLUDED IN THE INPUT FILE
+#A LIST OF THE SPECIES INCLUDED IN THE COUNTS FILE
 species = genecounts_df[0][:-1]
-#A LIST OF THE ORTHOGROUPS INCLUDED IN THE INPUT FILE
+#A LIST OF THE ORTHOGROUPS INCLUDED IN THE COUNTS FILE
 orthogroups = [x[:-1] for x in genecounts_df[1:]]
 #CONVERT THE COUNTS TABLE TO PRESENCE/ABSENCE TABLE
 orthogroups_binary = o2bin(orthogroups)
