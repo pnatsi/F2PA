@@ -37,6 +37,16 @@ To run OrthoFinder and produce a corresponding gene presence/absence alignment i
 python F2PA.py -c config_file.txt 
 ```
  
+## Citations
+
+If you use F2PA please cite the following publications:
+
+- Emms D, Kelly S. 2015. OrthoFinder: solving fundamental biases in whole genome comparisons dramatically improves orthogroup inference accuracy. Genome Biol. 16:157
+- Swofford DL. 1993. PAUP: phylogenetic analysis using parsimony. Mac Version 3. 1. 1.(Computer program and manual).
+
+If BUSCO analysis option is selected:
+- Simão FA, Waterhouse RM, Ioannidis P, Kriventseva EV, Zdobnov EM. 2015. BUSCO: assessing genome assembly and annotation completeness with single-copy orthologs. Bioinformatics 31(19):3210–2
+
 <br>
 Who<br> 
  Paschalis Natsidis, PhD candidate (p.natsidis@ucl.ac.uk); <br>
