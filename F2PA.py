@@ -8,7 +8,7 @@ footer = "Who \n Paschalis Natsidis (p.natsidis@ucl.ac.uk); \n \nWhere \n Telfor
  ITN IGNITE; \n  \nWhen\n October 2019; \n\n"
 
 parser = argparse.ArgumentParser(description = usage, prog = toolname, epilog = footer, formatter_class=argparse.RawDescriptionHelpFormatter,)
-parser.add_argument('-c', metavar = 'filename', dest = 'config', required = True,
+parser.add_argument('--config', metavar = 'filename', dest = 'config', required = True,
                     help = 'full path to config file')
 
 parser.add_argument('--busco', action = 'store_true',dest = 'busco',
