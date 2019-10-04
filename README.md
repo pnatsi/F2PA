@@ -14,7 +14,7 @@ F2PA needs a config file to run. The config file will contain:
 - The values of various parameters for the OrthoFinder and BUSCO runs
 <br>
 
-Please change the provided `config.txt` file accordingly before running your own analysis.
+**Please always change the provided `config.txt` file accordingly before running your own analysis.**
 
 
 ## Arguments
