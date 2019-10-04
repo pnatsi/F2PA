@@ -12,7 +12,6 @@ F2PA needs a config file to run. The config file will contain:
 - The path in which the results will be written
 - The paths in which the required software are installed.
 - The values of various parameters for the OrthoFinder and BUSCO runs
-<br>
 
 **Please always change the provided `config.txt` file accordingly before running your own analysis.**
 
