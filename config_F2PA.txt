@@ -1,0 +1,29 @@
+#Directory which contains the FASTA files to be analysed
+fastas_dir=/home/natsidis/F2PA/fastas/
+
+#Directory into which the output files will be written
+output_path=/home/natsidis/F2PA/
+
+#Path to orthofinder executable
+orthofinder_path=/home/natsidis/bin/orthofinder
+
+#MCL inflation parameter for OrthoFinder
+inflation=1.5
+
+#Number of threads to be used for BLAST tasks in OrthoFinder
+t_threads = 15
+
+#Number of threads to be used for orthology inference tasks in OrthoFinder
+a_threads = 15
+
+#Path to PAUP* executable
+paup_path=/home/natsidis/tools/paup4a166_centos64
+
+#Path to the run_BUSCO.py script
+busco_path=/home/natsidis/tools/busco/scripts/run_BUSCO.py
+
+#Directory that contains the datasets to be used in BUSCO analysis (e.g. metazoa_odb9/)
+busco_dataset_path=/home/natsidis/tools/busco/dataset/
+
+#Number of threads to be used in BUSCO analysis
+busco_threads=10
