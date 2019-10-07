@@ -108,7 +108,7 @@ if args.busco:
                    rm -rf run* && \
                    rm -rf tmp && \
                    rm -rf c2.txt && \
-                   rm -rf list_of_fastas.txt")
+                   rm -rf " + output_path + "list_of_fastas.txt")
 
 
 ################################################################################################################        
