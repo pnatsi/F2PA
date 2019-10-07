@@ -92,8 +92,8 @@ if args.busco:
                     
         #CREATE BUSCO_RESULT.TSV AND CLEAN INTERMEDIATE OUTPUT FILES
         os.system('grep "C:" run*/short* > grep_result.txt')
-        os.system('cut -f2 grep_result.txt > c2.txt')
-        os.system('paste list_of_fastas.txt c2.txt > busco_result.txt')
+        os.system("cut -f2 grep_result.txt > c2.txt")
+        os.system("paste " + output_path + "list_of_fastas.txt c2.txt > busco_result.txt")
         os.system("sed -i 's/C://g' busco_result.txt")
         os.system("sed -i 's/%\[S:/\t/g' busco_result.txt")
         os.system("sed -i 's/%,D:/\t/g' busco_result.txt")
