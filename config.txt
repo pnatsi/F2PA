@@ -2,7 +2,7 @@
 fastas_dir=/home/natsidis/F2PA/fastas/
 
 #Directory into which the output files will be written
-output_path=/home/natsidis/F2PA/
+output_path=/home/natsidis/F2PA_output/
 
 #Path to orthofinder executable
 orthofinder_path=/home/natsidis/bin/orthofinder
@@ -11,10 +11,10 @@ orthofinder_path=/home/natsidis/bin/orthofinder
 inflation=1.5
 
 #Number of threads to be used for BLAST tasks in OrthoFinder
-t_threads = 15
+t_threads = 1
 
 #Number of threads to be used for orthology inference tasks in OrthoFinder
-a_threads = 15
+a_threads = 1
 
 #Path to PAUP* executable
 paup_path=/home/natsidis/tools/paup4a166_centos64
@@ -26,4 +26,4 @@ busco_path=/home/natsidis/tools/busco/scripts/run_BUSCO.py
 busco_dataset_path=/home/natsidis/tools/busco/dataset/
 
 #Number of threads to be used in BUSCO analysis
-busco_threads=10
+busco_threads=1
