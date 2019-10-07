@@ -101,7 +101,7 @@ if args.busco:
         os.system("sed -i 's/%,M:/\t/g' busco_result.txt")
         os.system("sed -i 's/%,n:978//g' busco_result.txt")
         os.system("echo 'Species\tComplete\tSingleCopy\tDuplicated\tFragmented\tMissing' > header.txt && \
-                   cat header.txt busco_result.txt > buscos_result.tsv && \
+                   cat header.txt busco_result.txt > " + output_path + "buscos_result.tsv && \
                    rm header.txt && \
                    rm busco_result.txt && \
                    rm grep_result.txt && \
