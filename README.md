@@ -33,7 +33,7 @@ F2PA needs a config file to run. The config file will contain:
 To run OrthoFinder and produce a corresponding gene presence/absence alignment in interleaved nexus format:
 
 ```
-python F2PA.py --config config_file.txt 
+python F2PA.py --config config_file.txt --phylip --nexus
 ```
  
 ## Citations
