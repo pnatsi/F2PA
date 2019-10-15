@@ -218,6 +218,7 @@ if args.phylip==True and args.nexus==True:
     os.system(paup_path + " " + output_path + "convert_to_nexus.paup > /dev/null")
     os.system("rm " + output_path + "gene_presence_absence.nexus")
     os.system("rm " + output_path + "convert_to_nexus.paup")
+    os.system("rm " + output_path + "Orthogroups.GeneCount.tsv")
 
     print("Interleaved NEXUS file made!\n")
     
